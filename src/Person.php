@@ -1,6 +1,6 @@
 <?php
 
-class Person{
+abstract class Person{
 
     private $cpf;
     private $name;

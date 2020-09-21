@@ -24,7 +24,7 @@ class Account {
         }
     }
 
-    public function transfer(float $value, Conta $account): void {
+    public function transfer(float $value, Account $account): void {
         if($value < $this->balance){
             $this->withdraw($value);
             $account->deposit($value);
